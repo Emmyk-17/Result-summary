@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Hanken Grotesk,sans-serif;
+}
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    border-radius: 15px;
+    font-size: 18px;
+    box-shadow:  0.05px 10px 10px 0.01px rgb(158, 156, 156);
+}
+#sub1 {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)) ;
+    color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+#sub2 {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 20px;
+}
+.score {
+    padding: 35px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    box-shadow: inset 1px 1px 12px 0px hsla(256, 72%, 46%, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.big {
+    font-size: 40px;
+    font-weight: 600;
+}
+#sub2 p {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+.red {
+    background-color: hsla(0, 100%, 67%, 0.08);
+    color: hsl(0, 100%, 67%);
+}
+.yellow {
+    background-color: hsla(39, 100%, 56%, 0.08);
+    color: hsl(39, 100%, 56%);
+}
+.green {
+    background-color: hsla(166, 100%, 37%, 0.08);
+    color: hsl(166, 100%, 37%);
+}
+.blue {
+    background-color: hsla(234, 85%, 45%, 0.08);
+    color: hsl(234, 85%, 45%);
+}
+
+#black {
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+}
+#grey {
+    color: grey;
+}
+button {
+    color: hsl(0, 0%, 100%);
+    background-color:  hsl(224, 30%, 27%);
+    width: 200px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+}
+button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)) ;
+    cursor: pointer;
+}
+.sub {
+    color: rgb(216, 213, 213);
+}
+@media (max-with= 375px) {
+    #sub1{
+        width: 100%;
+        border-radius: 0px;
+        padding: 0;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    
+    #main {
+        width: 100%;
+        border-radius: 0;
+        flex-direction: column;
+
+    }   
+}
