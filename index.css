@@ -90,7 +90,7 @@ button:hover {
 .sub {
     color: rgb(216, 213, 213);
 }
-@media (max-with= 375px) {
+@media screen and (max-with: 600px) {
     #sub1{
         width: 100%;
         border-radius: 0px;
