@@ -29,14 +29,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Alt text](<Screenshot 2024-01-09 012932.png>)
+
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Emmyk-17/Result-summary)
+- Live Site URL: (https://emmyk-17.github.io/Result-summary/)
 
 ## My process
 
